@@ -9,6 +9,8 @@
 	<!--css propio -->
 	<link rel="stylesheet" href="./../css/style.css">
 	<link rel="icon" href="./../img/ico.png">
+	<!--aos animation-->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 		<!-- comienza nav -->
@@ -91,37 +93,37 @@
 					<h1 class="text-center p-2 fw-bold">Nuestros Servicios</h1>
 					<div class="row row m-1 g-0 justify-content-around">
 
-						<article class="my_card col-sm-8 col-md-5 col-lg-3 m-2">
+						<article data-aos="fade-left" data-aos-duration="3000" class="my_card col-sm-8 col-md-5 col-lg-3 m-2">
 							<h3 class="text-center p-2 fw-bold">Elemento Agua</h2>
 							<img src="./../img/agua.jpg" alt="Foto de Hidromasajes" class="card_img">
 							<p class="p-2">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Alias eveniet nostrum reiciendis mollitia facilis nemo non pariatur exercitationem nulla. Omnis modi laboriosam voluptatum minus itaque at, dolorum, hic velit ex!</p>	
 						</article>
 
-						<article class="my_card col-sm-8 col-md-5 col-lg-3 m-2">
+						<article data-aos="fade-left" data-aos-duration="3000" class="my_card col-sm-8 col-md-5 col-lg-3 m-2">
 							<h3 class="text-center p-2 fw-bold">Elemento Fuego</h2>
 							<img src="./../img/fuego.jpg" alt="Foto de Saunas" class="card_img">
 							<p class="p-2">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Alias eveniet nostrum reiciendis mollitia facilis nemo non pariatur exercitationem nulla. Omnis modi laboriosam voluptatum minus itaque at, dolorum, hic velit ex!</p>	
 						</article>
 
-						<article class="my_card col-sm-8 col-md-5 col-lg-3 m-2">
+						<article data-aos="fade-left" data-aos-duration="3000" class="my_card col-sm-8 col-md-5 col-lg-3 m-2">
 							<h3 class="text-center p-2 fw-bold">Elemento Tierra</h2>
 							<img src="./../img/tierra.jpg" alt="Foto de Persona con Piedras Calientes" class="card_img">
 							<p class="p-2">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Alias eveniet nostrum reiciendis mollitia facilis nemo non pariatur exercitationem nulla. Omnis modi laboriosam voluptatum minus itaque at, dolorum, hic velit ex!</p>	
 						</article>
 
-						<article class="my_card col-sm-8 col-md-5 col-lg-3 m-2">
+						<article data-aos="fade-left" data-aos-duration="3000" class="my_card col-sm-8 col-md-5 col-lg-3 m-2">
 							<h3 class="text-center p-2 fw-bold">Elemento Aire</h2>
 							<img src="./../img/aire.jpg" alt="Foto de Persona con masajes y Velas" class="card_img">
 							<p class="p-2">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Alias eveniet nostrum reiciendis mollitia facilis nemo non pariatur exercitationem nulla. Omnis modi laboriosam voluptatum minus itaque at, dolorum, hic velit ex!</p>	
 						</article>
 
-						<article class="my_card col-sm-8 col-md-5 col-lg-3 m-2">
+						<article data-aos="fade-left" data-aos-duration="3000" class="my_card col-sm-8 col-md-5 col-lg-3 m-2">
 							<h3 class="text-center p-2 fw-bold">Reflexologia</h2>
 							<img src="./../img/reflexologia.jpg" alt="Foto de Persona haciendo Masajes en los pies" class="card_img">
 							<p class="p-2">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Alias eveniet nostrum reiciendis mollitia facilis nemo non pariatur exercitationem nulla. Omnis modi laboriosam voluptatum minus itaque at, dolorum, hic velit ex!</p>	
 						</article>
 
-						<article class="my_card col-sm-8 col-md-5 col-lg-3 m-2">
+						<article data-aos="fade-left" data-aos-duration="3000" class="my_card col-sm-8 col-md-5 col-lg-3 m-2">
 							<h3 class="text-center p-2 fw-bold">Dia de Spa</h2>
 							<img src="./../img/spa.jpg" alt="Dos persona en Spa" class="card_img">
 							<p class="p-2">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Alias eveniet nostrum reiciendis mollitia facilis nemo non pariatur exercitationem nulla. Omnis modi laboriosam voluptatum minus itaque at, dolorum, hic velit ex!</p>	
@@ -161,7 +163,11 @@
 
 				
 
-			
+	<!--Script Aos-->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  	<script>
+   		AOS.init();
+ 	</script>		
 			
 	<!-- js de bootstrap -->
 	<script src="./../js/bootstrap.min.js"></script>

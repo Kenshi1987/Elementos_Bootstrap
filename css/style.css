@@ -70,6 +70,7 @@
 	main {
 		background-color: papayawhip;
 		
+		
 	}
 
 /*termina estilos main*/
@@ -105,7 +106,6 @@
 	}
 
 	.my_card:hover {
-		transform: translateY(-15px);
 		box-shadow: 0 12px 16px rgba(0, 0, 0, 0.8);
 		z-index: 100;
 	}
